@@ -1,7 +1,3 @@
-Este documento é um tutorial sobre a fabricação de placas de circuito impresso (PCB) usando uma máquina CNC. Ele aborda o processo completo, desde a exportação dos arquivos de design até a usinagem e finalização da placa.
-
----
-
 ### **Introdução**
 
 Este tutorial explica os passos necessários para fabricar uma placa de circuito por meio de usinagem CNC. O processo começa com o design da placa em um software como o KiCad, seguido pela geração do código G usando o FlatCAM, e finaliza com a fabricação da placa usando o software Candle para controlar a máquina CNC.
@@ -22,7 +18,7 @@ Com a PCB aberta no KiCad, siga estes passos:
 3.  Clique em **"Plot"**.
 4.  Não feche a janela, pois ela será usada para gerar os arquivos dos furos.
 
-Este tutorial é para placas de circuito com apenas uma camada de cobre.
+Este tutorial é para placas de circuito com apenas uma camada de cobre. Para placas com dois lados é necessário importar ambos e o processo se torna um pouco mais complexo.
 
 #### **Exportando Arquivos de Furos no KiCad**
 
